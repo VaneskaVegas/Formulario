@@ -1,0 +1,149 @@
+/*Página principal*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Header*/
+header {
+	background-color: #2f3338;
+	height: 82px;
+}
+header .logo {
+	width: 20%;
+	margin: 0 5%;
+}
+header .logo img {
+	width: 8rem;
+}
+header .logo h2 {
+	font-size: 1.4rem;
+	font-weight: normal;
+	padding-top: 0.8vw;
+}
+header .menu {
+	font-size: 1rem;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 3%;
+}
+header a.comprar_tickets {
+	color: #23db4b!important;
+}
+header a.comprar_tickets:hover {
+	color: #23db4b!important;
+}
+@media screen and (max-width: 1200px) {
+	header .menu {
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 992px) {
+	header .menu {
+		font-size: 1.5rem;
+	}
+}
+
+/*Compra Tickets*/
+.venta h3 {
+	padding-top: 1.5vw;
+	font-size: 0.7rem;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+.venta h2 {
+	font-size: 1.7rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*footer*/
+footer {
+	background: linear-gradient(90deg, rgb(32, 59, 73) 0%, rgb(30, 90, 124) 100%);
+	padding: 10vw!important;
+	z-index: 10;
+}
+footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+footer ul li {
+	width: 5rem;
+	margin: 0rem 1.5rem;
+}
+footer a {
+	color: #fff!important;
+	padding: 0vw!important;
+	font-size: 1rem;
+	text-align: center;
+}
+footer a:hover {
+	color: #ddd!important;
+}
+@media screen and (max-width: 1200px) {
+	footer {
+		padding: 2vw!important;
+	}
+}
+@media screen and (max-width: 992px) {
+	footer {
+		padding: 0vw!important;
+	}
+	footer ul li {
+		width: 8rem;
+		margin: 1.5rem 1.5rem;
+	}
+	footer a {
+		color: #fff!important;
+		padding: 0vw!important;
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
+/*main*/
+
+.honolulutitulo {
+	background-color: #2f3338;
+	color: #fff!important;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.fondo {
+	 background-color: #2f3338;
+}
+
+.honolulu {
+	color: #fff!important;
+	font-size: 1rem;
+	text-align: left;
+
+}
+
+.direccion {
+	color: #fff!important;
+padding: 0vw!important;
+font-size: 1rem;
+text-align: right;
+}
+
+.centro {
+	text-align: center;;
+}
+
+
+
+	
+
+/*Formulario Compra Tickets*/
+
+.descuento{
+    margin-left: 3%!important;
+    margin-right: 3%!important;
+}
